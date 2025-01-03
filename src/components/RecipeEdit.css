@@ -1,0 +1,57 @@
+.edit-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #f8f5f0; /* Paper-like color */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Georgia', serif; /* Book-like font */
+    /* background-image: url('/images/kitchen-counter.jpg'); Example kitchen theme */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .edit-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #5a3d2b; /* Dark brown */
+  }
+  
+  .edit-form label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    color: #5a3d2b; /* Dark brown */
+  }
+  
+  .edit-form input,
+  .edit-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .edit-form textarea {
+    resize: none;
+  }
+  
+  .edit-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #5a3d2b; /* Dark brown */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .edit-form button:hover {
+    background: #4a2c1b; /* Darker brown */
+  }
+  

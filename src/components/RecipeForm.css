@@ -1,0 +1,59 @@
+/* RecipeForm.css */
+
+/* Form container styles */
+.recipe-form {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 30px;
+    width: 80%;
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  /* Heading styles */
+  h2 {
+    font-family: 'Times New Roman', serif;
+    color: #2a2a2a;
+    margin-bottom: 20px;
+  }
+  
+  /* Label styles */
+  label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+  }
+  
+  /* Input and textarea styles */
+  input, textarea {
+    padding: 10px;
+    border: 1px solid #d7b49e;
+    border-radius: 10px;
+    margin: 10px 0;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #f4f1e3;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  /* Submit button styles */
+  button {
+    background-color: #f1a85d;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #f58d3c;
+  }
+  

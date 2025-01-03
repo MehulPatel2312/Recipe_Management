@@ -52,6 +52,35 @@ The Recipe Management application allows users to manage recipes by creating, vi
    
    The application will run on `http://localhost:3000` by default.
 
+## Folder Structure
+
+/recipe-management
+|_____/node_modules
+|_____/public
+|_____/server
+|     |_____/controllers
+|     |     |_____recipeControllers.js
+|     |_____/models
+|     |     |_____Recipe.js
+|     |_____/routes
+|     |     |_____recipeRoutes.js
+|     |_____.env
+|     |_____package-lock.json
+|     |_____package.json
+|     |_____server.js
+|_____/src
+      |_____/components
+      |     |_____DeleteButton.js
+      |     |_____Favorite.js
+      |     |_____RecipeEdit.css
+      |     |_____RecipeEdit.js
+      |     |_____RecipeForm.js
+      |     |_____RecipeForm.css
+      |     |_____RecipeList.css
+      |     |_____RecipeList.js
+      |_____App.css
+      |_____App.js
+
 
 ## Scripts
 
